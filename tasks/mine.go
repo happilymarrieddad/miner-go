@@ -2,6 +2,7 @@ package tasks
 
 import (
 	"github.com/happilymarrieddad/miner-go/robot"
+
 	"time"
 )
 

@@ -1,5 +1,10 @@
 package robot
 
+import (
+	"github.com/happilymarrieddad/miner-go/utils"
+
+)
+
 // CloseDistanceToAsteroids close distance to asteroids
 func CloseDistanceToAsteroids() {
 
@@ -9,11 +14,13 @@ func CloseDistanceToAsteroids() {
 
 	// Stop when close enough
 
+	utils.BasicDelay()
 }
 
 // SelectAndTargetClosestAsteroids select the closest asteroids and targets them
 func SelectAndTargetClosestAsteroids() {
 
+	utils.BasicDelay()
 }
 
 // SetMinerOnEachAsteroid set a miner on each asteroid
@@ -25,11 +32,13 @@ func SetMinerOnEachAsteroid() {
 	// press miner 2
 	// delay 1 second
 
+	utils.BasicDelay()
 }
 
 // StopMinersAndUntarget stop the miners and untarget
 func StopMinersAndUntarget() {
 
+	utils.BasicDelay()
 }
 
 // CheckIfHoldIsFull check if the hold is full
